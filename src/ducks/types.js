@@ -11,7 +11,6 @@ let hostName = os.hostname();
 
 
 // export const API_URL = 'http://localhost:9001/api';
-hostName = "192.168.2.9";
 export const API_URL = 'http://' + hostName + ':9001/api';
 export const SERVER_STATIC_URL = 'http://' + hostName + ':9001';
 export const CLIENT_ROOT_URL = 'http://' + hostName + ':3000';
