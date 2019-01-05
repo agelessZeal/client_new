@@ -1,0 +1,19 @@
+.amazon_button_outer {
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+.amazon_button_inner {
+  background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+  box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+  padding: .75em 1.5em;
+  height: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.amazon_button_inner a {
+  font-size: 1.5em;
+  color: #111;
+}

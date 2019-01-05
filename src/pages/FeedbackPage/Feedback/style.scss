@@ -1,0 +1,69 @@
+@media (min-width:769px)  {
+  th.product_details {
+    width: 420px;
+  }
+  th.order_type {
+    width: 65px;
+  }
+  th.order_date {
+    width: 129px;
+  }
+}
+
+.product_details{
+  span.qty, span.price, span.asin, span.sku{
+    padding: 4px;
+    font-size: 12px;
+  }
+  span.title{
+    font-weight: 600;
+    float: left;
+  }
+}
+
+.order_type span.b_type {
+  border-radius: 5px;
+  background: #0190fe;
+  padding: 2px 7px;
+  color: #ffffff;
+}
+
+.card .card-header .filter_area{
+  .date_picker_area {
+    display: block;
+    float: left;
+  }
+
+  .filter_selection {
+    float: left;
+    display: block;
+    min-width: 200px;
+    padding-left: 7px;
+  }
+
+  .filter_submit_btn {
+    display: block;
+    float: left;
+    padding-left: 7px;
+  }
+}
+
+.feedback_details{
+  .rating_star li.ant-rate-star{
+    margin-right: 3px;
+    i.anticon-star{
+      font-size: 11px;
+      .ant-rate-star-second {
+        color: #c5c2c2;
+      }
+    }
+  }
+}
+
+td.feedback_details {
+  width: 29%;
+}
+
+td.product_info {
+  width: 29%;
+}
